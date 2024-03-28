@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "comment": "ONLY CHANGE THIS BY REMOVING THE ANVILS BUT NEVER ADD NEW ANVILS (YOU ARE WARNED)",
+  "values": [
+    "betterend:aeternium_anvil",
+    "betterend:thallasium_anvil",
+    "betterend:terminite_anvil"
+  ]
+}

@@ -2,28 +2,24 @@
 	"schemaVersion": 1,
 	"id": "beanvilrepair",
 	"version": "${version}",
-	"name": "BEAnvilRepair",
-	"description": "A mod that replicates features from Anvil Restoration from Serilum for Better End anvils",
+	"name": "BetterEnd Anvil Repair",
+	"description": "A mod that replicates features from Anvil Restoration from Serilum for BetterEnd anvils",
 	"authors": [
 		"The Crimson"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/be-anvil-restoration",
-		"sources": "https://github.com/CrimsonCrips/BEAnvilRestoration"
+		"sources": "https://github.com/CrimsonCrips/BetterEndAnvilRepair?tab=readme-ov-file"
 	},
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.crimsoncrips.BEAnvilRepair"
+			"com.crimsoncrips.BEAnvil"
 		]
 	},
 	"mixins": [
-		"beanvilrepair.mixins.json",
-		{
-			"config": "beanvilrepair.client.mixins.json",
-			"environment": "client"
-		}
+		"beanvilrepair.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
